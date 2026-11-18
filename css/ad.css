@@ -1,0 +1,41 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.frame {
+	width: 1000px;
+	height: 500px;
+	background: url("../images/owala.jpeg");
+	border: solid 1px gray;
+}
+.title {
+	font-family: 'Martel-Light';
+    font-size: 4.8em;
+	color: #6b6b6b;
+	position: absolute;
+	letter-spacing: 0.3px;
+	left: 2.5%;
+	bottom: 20%;
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.text {
+	font-family: 'Martel-Light';
+	width: 20px;
+	font-size: 30em;
+	color: #6b6b6b;
+	line-height: 50em;
+	letter-spacing: 30em;
+	word-spacing: 45em;
+	text-align: left;
+	text-indent: 20em;
+}
